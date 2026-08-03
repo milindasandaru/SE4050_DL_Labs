@@ -3,7 +3,7 @@
 ## Student Details
 
 **Name:** Senarath S A M S  
-**IT Number:** IT 23 2847 84
+**IT Number:** IT 23 2847 84  
 **Module:** Deep Learning  
 **Degree:** Information Technology
 **Academic Year:** 4th Year 1st Semester 
