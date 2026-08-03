@@ -115,6 +115,6 @@ All implementations are developed using Python and executed using Jupyter Notebo
 
 ## Author
 
-**Name:** Senarath S A M S
-**IT Number:** IT 23 2847 84
-**GitHub:** https://github.com/milindasandaru
+**Name:** Senarath S A M S  
+**IT Number:** IT 23 2847 84  
+**GitHub:** https://github.com/milindasandaru  
