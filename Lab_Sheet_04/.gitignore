@@ -1,0 +1,17 @@
+# 1. Add the model to .gitignore
+Add-Content .gitignore "Lab_Sheet_04/model_data/yolo_v2.h5"
+
+# 2. Remove it from Git tracking
+git rm --cached "Lab_Sheet_04/model_data/yolo_v2.h5"
+
+# 3. Commit the removal
+git add .gitignore
+git commit -m "Remove large YOLO model from repository"
+
+# 4. Rewrite the previous commit/history to remove the large file
+git filter-branch --force --index-filter `
+  "git rm --cached --ignore-unmatch 'Lab_Sheet_04/model_data/yolo_v2.h5'" `
+  --prune-empty --tag-name-filter cat -- --all
+
+# 5. Push rewritten history
+git push -u origin main --force
